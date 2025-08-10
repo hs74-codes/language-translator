@@ -13,8 +13,7 @@ Designed for ease of use on **mobile, tablet, and desktop** devices.
 Language-Translation-Tool/
 │
 ├── screenshots/                # Images for README (UI previews)
-│   ├── translation_ui1.png
-│   └── translation_ui2.png
+│   ├── demo.png
 │
 ├── static/                      # CSS & JavaScript files
 │   ├── style.css                # Styling for the translation tool UI
