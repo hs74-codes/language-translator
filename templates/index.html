@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌐 Language Translator Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>🌐 Dark Language Translator</h2>
+
+    <textarea id="inputText" placeholder="Enter text to translate..."></textarea><br>
+
+    <label>From:</label>
+    <select id="sourceLang">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="fr">French</option>
+    </select>
+
+    <label>To:</label>
+    <select id="targetLang">
+        <option value="hi">Hindi</option>
+        <option value="en">English</option>
+        <option value="fr">French</option>
+    </select>
+
+    <br><br>
+    <button onclick="translateText()">Translate</button>
+
+    <h3>Translated Text:</h3>
+    <p id="outputText"></p>
+
+    <button onclick="copyText()">📋 Copy</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
